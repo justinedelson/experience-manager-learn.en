@@ -63,7 +63,7 @@ Errors identified in this phase should be re-producible building the project loc
 
 Code scanning performs static code analysis using a mix of Java and AEM-specific best practices. 
 
-Code scanning results in a build failure if a Critical Security vulnerabilities exist in the code. Lesser violations can be overridden, but it is recommended they are fixed. Note that code scanning is imperfect and can result in [false positives](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/understand-your-test-results.html#dealing-with-false-positives).
+Code scanning results in a build failure if a Critical Security vulnerabilities exist in the code. Lesser violations can be overridden, but it is recommended they are fixed. Note that code scanning is imperfect and can result in [false positives](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/understand-test-results.html#dealing-with-false-positives).
 
 To resolve code scanning issues, download the report provided by Cloud Manager vai the , and review the offending lines. Note that 
 
